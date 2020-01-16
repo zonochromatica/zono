@@ -1,0 +1,331 @@
+Arduino: 1.8.10 (Windows 10), Board: "NodeMCU 1.0 (ESP-12E Module), 80 MHz, Flash, Legacy (new can return nullptr), All SSL ciphers (most compatible), 4MB (FS:1MB OTA:~1019KB), 2, v2 Lower Memory, Disabled, None, Only Sketch, 115200"
+
+WARNING: library Timezone claims to run on avr architecture(s) and may be incompatible with your current board which runs on esp8266 architecture(s).
+In file included from C:\Users\Aaron Clarke\Documents\Arduino\moodlite\moodlite.ino:31:0:
+
+C:\Users\Aaron Clarke\Documents\Arduino\libraries\FastLED/FastLED.h:14:21: note: #pragma message: FastLED version 3.003.002
+
+ #    pragma message "FastLED version 3.003.002"
+
+                     ^
+
+In file included from C:\Users\Aaron Clarke\Documents\Arduino\libraries\FastLED/FastLED.h:65:0,
+
+                 from C:\Users\Aaron Clarke\Documents\Arduino\moodlite\moodlite.ino:31:
+
+C:\Users\Aaron Clarke\Documents\Arduino\libraries\FastLED/fastspi.h:130:23: note: #pragma message: No hardware SPI pins defined.  All SPI access will default to bitbanged output
+
+ #      pragma message "No hardware SPI pins defined.  All SPI access will default to bitbanged output"
+
+                       ^
+
+moodlite:364:34: error: 'fullColor' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                  ^
+
+moodlite:364:46: error: 'standard' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                              ^
+
+moodlite:364:57: error: 'confetti' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                         ^
+
+moodlite:364:68: error: 'sinelon' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                    ^
+
+moodlite:364:78: error: 'juggle' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                              ^
+
+moodlite:364:87: error: 'bpm' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                       ^
+
+moodlite:364:93: error: 'kitt' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                             ^
+
+moodlite:364:100: error: 'plasma' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                    ^
+
+moodlite:364:109: error: 'blendwave' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                             ^
+
+moodlite:364:121: error: 'inoise8_fire' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                         ^
+
+moodlite:364:136: error: 'rainbow_beat' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                        ^
+
+moodlite:364:151: error: 'rainbow' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                       ^
+
+moodlite:364:161: error: 'rainbowWithGlitter' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                 ^
+
+moodlite:364:182: error: 'standardTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                      ^
+
+moodlite:364:197: error: 'beatwave' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                     ^
+
+moodlite:364:208: error: 'blur' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                ^
+
+moodlite:364:215: error: 'fill_grad' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                       ^
+
+moodlite:364:227: error: 'inoise_8' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                   ^
+
+moodlite:364:238: error: 'mover' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                              ^
+
+moodlite:364:246: error: 'noise16_1' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                      ^
+
+moodlite:364:258: error: 'noise16_2' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                  ^
+
+moodlite:364:270: error: 'noise16_3' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                              ^
+
+moodlite:364:282: error: 'three_sin' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                          ^
+
+moodlite:364:294: error: 'confettiTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                      ^
+
+moodlite:364:309: error: 'sinelonTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                     ^
+
+moodlite:364:323: error: 'juggleTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                   ^
+
+moodlite:364:336: error: 'bpmTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                ^
+
+moodlite:364:346: error: 'kittTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                          ^
+
+moodlite:364:357: error: 'plasmaTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                     ^
+
+moodlite:364:370: error: 'beatwaveTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                                  ^
+
+moodlite:364:385: error: 'inoise_8Tile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                                                 ^
+
+moodlite:364:400: error: 'moverTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                                                                ^
+
+moodlite:364:412: error: 'noise16_1Tile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+
+moodlite:364:428: error: 'noise16_2Tile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+
+moodlite:364:444: error: 'noise16_3Tile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+
+moodlite:364:460: error: 'three_sinTile' was not declared in this scope
+
+ SimplePatternList gPatterns = { &fullColor, &standard, &confetti, &sinelon, &juggle, &bpm, &kitt, &plasma, &blendwave, &inoise8_fire, &rainbow_beat, &rainbow, &rainbowWithGlitter, &standardTile, &beatwave, &blur, &fill_grad, &inoise_8, &mover, &noise16_1, &noise16_2, &noise16_3, &three_sin, &confettiTile, &sinelonTile, &juggleTile, &bpmTile, &kittTile, &plasmaTile, &beatwaveTile, &inoise_8Tile, &moverTile, &noise16_1Tile, &noise16_2Tile, &noise16_3Tile, &three_sinTile};
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+
+moodlite:403:1: error: 'AsyncHTTPClient' does not name a type
+
+ AsyncHTTPClient httpClient;
+
+ ^
+
+C:\Users\Aaron Clarke\Documents\Arduino\moodlite\moodlite.ino: In function 'void setup()':
+
+moodlite:434:18: error: 'initEEPROMData' was not declared in this scope
+
+   initEEPROMData();
+
+                  ^
+
+moodlite:437:12: error: 'initWiFi' was not declared in this scope
+
+   initWiFi();
+
+            ^
+
+moodlite:458:58: error: 'changeLedColorPatternParameters' was not declared in this scope
+
+         changeLedColorPatternParameters(beLedColorPattern);
+
+                                                          ^
+
+moodlite:459:34: error: 'switchLedPattern' was not declared in this scope
+
+     switchLedPattern(beLedPattern);
+
+                                  ^
+
+moodlite:565:36: error: 'mainHandler' was not declared in this scope
+
+   asyncWebServer.on("/", HTTP_GET, mainHandler);
+
+                                    ^
+
+moodlite:566:42: error: 'systemHandler' was not declared in this scope
+
+   asyncWebServer.on("/system", HTTP_GET, systemHandler);
+
+                                          ^
+
+moodlite:567:45: error: 'wifiHandler' was not declared in this scope
+
+   asyncWebServer.on("/set_wifi", HTTP_POST, wifiHandler);
+
+                                             ^
+
+moodlite:574:25: error: 'onEvent' was not declared in this scope
+
+   ayncWebSocket.onEvent(onEvent);
+
+                         ^
+
+C:\Users\Aaron Clarke\Documents\Arduino\moodlite\moodlite.ino: In function 'void loop()':
+
+moodlite:631:20: error: 'checkDisplay' was not declared in this scope
+
+   if (checkDisplay() && beNrOfLedsCorner > 0 && beLedPattern != 0 && beLedPattern != 99 && beLedSpeed > 0) {
+
+                    ^
+
+Multiple libraries were found for "ESP8266WiFi.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "EEPROM.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "TimeLib.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "ArduinoOTA.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "FastLED.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "ESP8266mDNS.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "ESPAsyncTCP.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "ESPAsyncWebServer.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "Hash.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "Timezone.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "PubSubClient.h"
+ Used: C:\Users\Aaron
+Multiple libraries were found for "Timer.h"
+ Used: C:\Users\Aaron
+exit status 1
+'fullColor' was not declared in this scope
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
